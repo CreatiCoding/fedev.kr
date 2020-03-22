@@ -1,5 +1,10 @@
 <script>
-
+  function goReactSite() {
+    window.location.href = "//react.fedev.kr";
+  }
+  function goHome() {
+    window.location.href = "/";
+  }
 </script>
 
 <style>
@@ -51,10 +56,10 @@
 
 <div class="left-nav">
   <div class="container">
-    <div class="menu react">
+    <div class="menu react" on:click={goReactSite}>
       <div class="text">react</div>
     </div>
-    <div class="menu svelte">
+    <div class="menu svelte" on:click={goHome}>
       <div class="text">svelte</div>
     </div>
     <div class="menu vuejs">
