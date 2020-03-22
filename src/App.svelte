@@ -8,7 +8,7 @@
 
 <style>
   :global(body) {
-    background-color: #fffaca;
+    /* background-color: #fffaca; */
     padding: 0;
     margin: 0;
   }

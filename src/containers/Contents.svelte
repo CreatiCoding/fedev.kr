@@ -10,5 +10,5 @@
 </style>
 
 <div class="contents">
-  <div class="">만나서 반갑습니다</div>
+  <div class="">프론트엔드 개발</div>
 </div>

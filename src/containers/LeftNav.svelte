@@ -5,40 +5,63 @@
 <style>
   .left-nav {
     float: left;
+    width: 200px;
     max-width: 200px;
     overflow: hidden;
     padding: 20px;
+    padding-top: 0;
   }
   .container {
     padding: 10px;
   }
-  .profile-image {
-    padding: 10px 0;
-    position: relative;
+  .menu {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    cursor: pointer;
   }
-  .profile-image > img {
-    border-radius: 50%;
+  .text {
+    display: inline;
+    vertical-align: middle;
+  }
+  .react {
+    color: #60dafb;
+    background: black;
+    font-weight: bold;
+  }
+  .vuejs {
+    color: #42b883;
+    background: #35495d;
+    font-weight: bold;
+  }
+  .angular {
+    color: #ffffff;
+    background: #c3002f;
+    font-weight: bold;
+  }
+  .svelte {
+    color: #ff3d00;
+    background: #ffffff;
+    font-weight: bold;
+    /* outline: 2px solid; */
+    /* margin: 2px; */
   }
 </style>
 
 <div class="left-nav">
   <div class="container">
-    <div class="profile-image">
-      <img
-        width="100%"
-        src="https://avatars3.githubusercontent.com/u/33514304?s=460&u=4e023d38794862f0820685e19068e7adc64e3f63&v=4"
-        alt="creco profile" />
-      <div style=" position: absolute; top: 70%; color: white; left: 40%; ">
-        <div style=" color: red; float: left; ">♥</div>
-        pongpong
-      </div>
+    <div class="menu react">
+      <div class="text">react</div>
     </div>
-    <div>
-      <div>코드명: 크레코(creco)</div>
-      <div>본명: 정석호</div>
-      <div>나이: 1993년생 28세</div>
-      <div>소개</div>
-      <div>Front-end 개발과 DevOps를 좋아하는 개발자입니다.</div>
+    <div class="menu svelte">
+      <div class="text">svelte</div>
+    </div>
+    <div class="menu vuejs">
+      <div class="text">vuejs</div>
+    </div>
+    <div class="menu angular">
+      <div class="text">angular</div>
     </div>
   </div>
 </div>
